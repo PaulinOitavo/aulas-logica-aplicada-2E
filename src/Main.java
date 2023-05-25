@@ -1,8 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        // Aula introdutória de Orientação à Objetos
-        Pessoa adao = new Pessoa();
-
+        // Declarar objetos
+        Pessoa rainha;
+        // Instanciar objetos
+        rainha = new Pessoa();
+        // Definir forma de objeto
+        rainha.falar();
+        System.out.println(rainha.falar("alto"));
+        rainha.comer();
 
 
     }
